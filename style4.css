@@ -1,0 +1,56 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box ;
+}
+body{
+    font-family: sans-serif;
+
+}
+.wrapper{
+    width:1200px;
+    margin:100px auto;
+}
+.title{
+    text-align:center;
+    margin-bottom: 60px;
+
+}
+.title h4{
+    text-decoration: capitalize;
+    font-size: 36px;
+    position: relative;
+    display:inline-block;
+    padding-bottom: 10PX;
+
+
+}
+.title h4 span{
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: -10px;
+}
+.title h4::before{
+    position:absolute;
+    content: "";
+    width: 100px;
+    height:2px;
+    background-color: turquoise;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-60%);
+
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.single-menu{
+    flex-basis: 580px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    
+}
